@@ -9,23 +9,22 @@ h1
   font-family:fantasy;
   font-weight: lighter;
   font-variant: small-caps;
-
+  float:left;
     font-stretch: ultra-condensed;
 color: #666;
 }
-.h{
-  position:fixed;
-  background:#8DEEEE;
-  width:100%;
-}
+.h
+{
+  position: fixed;
+
+
 
 }
-.nav {
+.nav a{
   float: right;
-  overflow: hidden;
 }
 ul {
-float: right;
+  float: right;
   text-align:right;
   padding-right: 40px;
   margin-right: 20px;
@@ -48,9 +47,4 @@ ul a:hover
 .hero img
 {
   width: 100%;
-}
-
-.wrap img{
-
-padding-top:100px;
 }
