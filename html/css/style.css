@@ -2,23 +2,34 @@
 
 h1
 {
-  /*margin-left: 25px;*/
-  /*margin-top: 20px;*/
+  /*margin-left: 25px;
+  margin-top: 20px;
   font-family:fantasy;
-  font-weight: lighter;
+  font-weight: lighter;*/
   font-variant: small-caps;
 
     font-stretch: ultra-condensed;
-color: #666;
+color: white;
 }
-.h{
-  position:fixed;
-  background:#8DEEEE;
-  /*width:100%;*/
+.header{
+
+  position: relative;
+
 }
 
 .navbar {
-  background: black;
+  /*background:#321414	;*/
+  background:#808000;
+  opacity: 0.5;
+    margin: auto;
+  position:fixed;
+  /*width:1000px;*/
+  margin-left: 200px;
+}
+.navbar h1
+{
+  float:left
+
 }
 
 .nav {
@@ -30,8 +41,13 @@ color: #666;
 
   text-decoration: none;
   display: inline;
+  margin-bottom: -10px;
 }
-.nav a:hover
+.nav a{
+  text-decoration: none;
+  color: white;
+}
+.nav ul li a:hover
 {
 
   text-decoration: underline;
@@ -47,6 +63,14 @@ color: #666;
   margin: auto;
 
 }
+.division{
+  background:#E6BE8A;
+  background-attachment: fixed;
+  background-size: cover;
+  width: 960px;
+  height: 180%;
+  margin: auto;
+}
 
 .wrap img{
 
@@ -56,6 +80,15 @@ padding-top:100px;
 {
   margin-top: -20px;
   width: 100%;
-  background:#454343;
+  background:#808000;
   background-attachment: fixed;
+  background-size: cover;
+}
+
+
+
+.textclass{
+  position: absolute;
+  color:grey;
+  left:400px;
 }
