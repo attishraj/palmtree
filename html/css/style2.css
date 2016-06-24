@@ -7,7 +7,7 @@ h1
   font-variant: small-caps;
 
     font-stretch: ultra-condensed;
-color: white;
+color: #0000FF;
 }
 .header{
 
@@ -31,7 +31,7 @@ color: white;
 }
 .navbar h1:hover
 {
-  color:blue;
+    color:brown;
     font-style: oblique;
 }
 
@@ -49,7 +49,7 @@ color: white;
 }
 .nav a{
   text-decoration: none;
-  color: white;
+    color:#0000FF;;
 }
 .nav ul li a:hover
 {

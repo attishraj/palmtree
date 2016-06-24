@@ -9,7 +9,7 @@ h1
   font-variant: small-caps;
 
     font-stretch: ultra-condensed;
-color: white;
+color: #0000FF;
 }
 .header{
 
@@ -33,7 +33,7 @@ color: white;
 }
 .navbar h1:hover
 {
-  color:blue;
+  color:brown;
     font-style: oblique;
 }
 
@@ -51,7 +51,7 @@ color: white;
 }
 .nav a{
   text-decoration: none;
-  color: white;
+  color:#0000FF;
 }
 .olist ol li{
   font-size: 20px;
@@ -75,12 +75,16 @@ color: brown;
 
 }
 .division{
-  background:#C0C0C0;
+  background: #E5E4E2;
   background-attachment: fixed;
   background-size: cover;
   width: 960px;
   height: 180%;
   margin: auto;
+}
+.olist  a{
+  text-decoration: none;
+  color: black;
 }
 
 .wrap img{
@@ -98,7 +102,8 @@ background:#BCD2EE;;
 }
 .olist ol li:hover
 {
-text-decoration: underline;
+text-decoration: none;
+color: brown;
 }
 .foot ul{
   list-style: none;
