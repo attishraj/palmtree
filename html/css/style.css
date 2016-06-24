@@ -39,11 +39,12 @@ color: #666;
 }
 
 .hero {
-  background-image: url('../photo.jpg');
+  background-image: url('../b.jpg');
   background-attachment: fixed;
   background-size: cover;
-  width: 100%;
+  width: 960px;
   height: 100%;
+  margin: auto;
 
 }
 
