@@ -7,7 +7,8 @@ h1
   font-variant: small-caps;
 
     font-stretch: ultra-condensed;
-color: #0000FF;
+color: #e9b403;
+font-family: 'Open sans'
 }
 .header{
 
@@ -17,22 +18,17 @@ color: #0000FF;
 
 .navbar {
   /*background:#321414	;*/
-  background:#BCD2EE;
+  background:black;
 /*  opacity: 0.8;*/
     margin: auto;
   position:fixed;
   /*width:1000px;*/
-  margin-left: 200px;
+
 }
 .navbar h1
 {
   float:left;
 
-}
-.navbar h1:hover
-{
-    color:brown;
-    font-style: oblique;
 }
 
 .nav {
@@ -49,13 +45,7 @@ color: #0000FF;
 }
 .nav a{
   text-decoration: none;
-    color:#0000FF;;
-}
-.nav ul li a:hover
-{
-color: brown;
-  text-decoration: underline;
-  text-decoration-color: blue;
+    color:#e9b403;
 }
 .wrap a{
   text-decoration: none;
@@ -88,15 +78,32 @@ text-align: justify;
 }
 
 
-.foot
+.foot h4
 {
-  margin-top: -20px;
-  width: 100%;
-  background:#BCD2EE;
-  background-attachment: fixed;
-  background-size: cover;
-  padding-left: 200px;
+  color:#e9b403;
 }
-.foot ul{
-  list-style: none;
+.foot  ul li a i
+{
+  color: white;
+  text-decoration: none;
+}
+.foot{
+  color: black;
+}
+
+
+.textclass{
+
+  position: absolute;
+  color:grey;
+  left:400px
+font-family: "Open Sans";
+}
+.foot .address
+{
+  color: white;
+}
+.address a
+{
+  color: white;
 }
