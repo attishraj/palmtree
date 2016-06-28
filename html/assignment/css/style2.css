@@ -1,51 +1,45 @@
-h1
+header
 {
-  /*margin-left: 25px;
-  margin-top: 20px;
-  font-family:fantasy;
-  font-weight: lighter;*/
-  font-variant: small-caps;
-
-    font-stretch: ultra-condensed;
-color: #e9b403;
-font-family: 'Open sans'
+  padding: 12px;
 }
-.header{
-
-  position: relative;
-
-}
-
-.navbar {
-  /*background:#321414	;*/
-  background:black;
-/*  opacity: 0.8;*/
-    margin: auto;
-  position:fixed;
-  /*width:1000px;*/
-
-}
-.navbar h1
+.head_er
 {
-  float:left;
-
+  position: fixed;
+  z-index: 10000;
+  width: 100%;
+  margin: auto;
+  background: black;
 }
-
-.nav {
-  float: right;
-  overflow: hidden;
+.head_er header h1
+{
+  color: #e9b403;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  float: left;
 }
-
-.nav ul li {
-
-  text-decoration: none;
-  display: inline;
-  margin-bottom: -10px;
-  /*font-family: "Open Sans";*/
+ .navi
+ {
+   float: right;
+   overflow: hidden;
+   float: right;
+   font-family: 'Open sans';
 }
-.nav a{
-  text-decoration: none;
-    color:#e9b403;
+   .navi ul li {
+    text-decoration: none;
+     display: inline;
+     margin-bottom: -10px;
+     margin-right: 20px;
+}
+   .navi a{
+     text-decoration: none;
+     color: #e9b403;
+     opacity: 0.8;
+}
+ h2
+{
+  text-align: center;
+  padding-top: 60px;
+  font-size: 50px;
 }
 .wrap a{
   text-decoration: none;
@@ -57,27 +51,40 @@ font-family: 'Open sans'
   color: brown;
 }
 .wrap {
-
-padding-top:100px;
+padding-top:50px;
 text-align: justify;
 }
-
 .wrap1{
-  padding-top: 100px;
+  padding-top: 30px;
   text-align: justify;;
 }
 .wrap2{
   padding-top: 100px;
   text-align: justify;;
 }
-
 .wrap3{
   padding-top: 100px;
   text-align: justify;
   padding-bottom: 100px;
 }
-
-
+.foot
+{
+  margin-top: -20px;
+  width: 85%;
+  background:black;
+  background-attachment: fixed;
+  background-size: cover;
+  padding-left: 200px;
+  padding-top: -100px;
+}
+.olist ol li:hover
+{
+text-decoration: none;
+color: brown;
+}
+.foot ul{
+  list-style: none;
+}
 .foot h4
 {
   color:#e9b403;
@@ -87,11 +94,6 @@ text-align: justify;
   color: white;
   text-decoration: none;
 }
-.foot{
-  color: black;
-}
-
-
 .textclass{
 
   position: absolute;
